@@ -1,0 +1,52 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// titolo della pagina
+.ms_title{
+    font-weight: bold;
+    color: #440063;
+}
+
+// titoli delle form
+.ms_title_plate, .ms_title_ingredients, 
+.ms_title_price, .ms_title_img{
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+// form 
+.ms_form_plate, .ms_form_ingredients,
+.ms_form_price, .ms_form_img{
+    border: 1px solid black;
+}
+
+// input per pubblicare la creazione
+.ms_input_yes{
+    margin-left: 10px;
+}
+
+.ms_input_no{
+    margin-left: 10px;
+}
+
+// bottone di creazione piatto
+.ms_button_create{
+    background-color: $primary-color;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+}
+
+.ms_button_create:hover{
+    background-color:rgba(0, 204, 188, 0.7); 
+    color: white;
+}
+
+// immagine logo
+.img_create_logo{
+    width: 100%;
+}
+

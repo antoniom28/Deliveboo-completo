@@ -1,0 +1,36 @@
+div.types-box{
+    ul.your-types{
+        li{
+            display: inline-block;
+            list-style-type:none ;
+            background-color: $third-color;
+            color: $light-color;
+            backdrop-filter: blur(3px);
+            border: 2px solid $light-color;
+            border-radius: 15px;
+            font-weight: bolder;
+            text-align: start;
+            margin: 5px 0px!important;
+            padding: 5px 15px!important;
+        }
+    }
+
+    .input-type-box{
+        display: inline-block;
+
+        label{
+            display: inline-block;
+            font-weight: bold;
+            font-size: 1.1em;
+            border: 2px solid $third-color;
+            border-radius: 15px;
+        }
+    }
+}
+
+input.test:checked ~ label.test{
+    font-weight: bold;
+    color: $primary_color;
+    background-color: $third-color;
+    font-size: 1.1em;
+}

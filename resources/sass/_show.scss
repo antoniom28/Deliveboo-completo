@@ -1,0 +1,54 @@
+.card_plate{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_single_plate{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+
+
+.ingredients{
+    width: 80%;
+    overflow-x: auto;
+}
+
+#no_image{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.name_plate{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.visible, .not_visible{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.edit_button{
+    background-color: #440063;
+        border-color: #440063;
+        &:hover{
+            background-color: #fabd01;
+            border-color: #fabd01;
+        }
+}
+
+@media screen and (max-width: 576px) {
+    .img_single_plate,#no_image{
+        width: 90%;
+        min-height: 250px;
+        height: auto;
+        border-radius: 20px;
+    }
+}

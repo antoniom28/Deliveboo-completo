@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import 'home_blade';
+@import 'globals';
+@import 'index';
+@import 'create';
+@import 'edit';
+@import 'show';
+@import 'recap';
+@import 'types';
+@import 'order';
+@import 'statistics';

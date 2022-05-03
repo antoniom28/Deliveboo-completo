@@ -1,0 +1,42 @@
+.recap-container{
+    background-image: url(https://s3-eu-west-1.amazonaws.com/tpd/logos/55be6ade0000ff000581b457/0x0.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding:0px 15px!important;
+    .card{
+        background: rgba( 255, 255, 255, 0.7 );
+        box-shadow: 0 8px 32px 0 $dark-color;
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 4px );
+        border-radius: 10px;
+        border: none!important; 
+
+        ul{
+            padding: 0%!important;
+            li{
+                list-style-type:none ;
+                background-color: $third-color;
+                color: $light-color;
+                backdrop-filter: blur(3px);
+                border: 2px solid $light-color;
+                border-radius: 15px;
+                margin: 5px 0px!important;
+                font-weight: bolder;
+                padding: 5px 15px!important;
+                text-align: start;
+            }
+
+            div,div.text-center{
+                font-weight: bolder;
+            }
+
+            .types{
+                li{
+                    margin:5px!important;
+                }
+            }
+        }
+
+    }
+}

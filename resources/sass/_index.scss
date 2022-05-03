@@ -1,0 +1,118 @@
+.ul_style{
+    list-style-type: none;
+}
+
+.btn_color{
+    .view{
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover{
+            background-color: $third-color;
+            border-color: $third-color;
+        }
+    }
+    .edit{
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover{
+            background-color: $secondary-color;
+            border-color: $secondary-color;
+        }
+    }
+    .delete{
+        background-color: $primary-color;
+        border-color: $primary-color;
+        &:hover{
+            background-color:red;
+            border-color:red;
+            color: white;
+        }
+    }
+}
+
+.btn_color_add{
+    .make_view_category{
+        background-color: $third-color;
+        border-color: $third-color;
+        color: $primary-color;
+        &:hover{
+            background-color: $primary-color;
+            border-color: $primary-color;
+            color: $third-color;
+        }
+    }
+
+}
+
+.li_ing_set{
+    overflow-x: auto;
+    width: auto;
+}
+
+.li_ingredient{
+    overflow-wrap: anywhere;
+}
+
+.border_edit_plate{
+    border: 1px solid $primary-color;
+    border-radius: 25px;
+    background: rgba( 255, 255, 255 , 0.9);
+    box-shadow: 0 8px 32px 0 $dark-color;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+  
+  .not-found{
+      background: url('https://deliveroo.it/assets/images/error-pages/background-7edaa013aceff22965bdb7fbf274b4a2.svg');
+      text-align: center;
+      position: relative;
+      height: 300px;
+  
+        h1{
+          font-size: 40px;
+        }
+  }
+  
+  .image-error{
+      background: url('https://deliveroo.it/assets/images/error-pages/roo-5c784b3ea96399e6269af8a11ec6349c.svg');
+      position: absolute;
+      width: 200px;
+      height: 145px;
+      left: 50%;
+      top: 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      transform: translate(-50% , 40%);
+  }
+  
+  .text{
+      padding-top: 100px;
+      text-align: center;
+  
+    p{
+      margin-bottom: 50px;
+    }
+  
+    .back{
+      background-color: #00ccbb;
+      color: white;
+      font-size: 15px;
+      padding: 9px;
+      border-radius: 10px;
+  
+      &:hover{
+        text-decoration: none;
+      }
+    }
+  }
